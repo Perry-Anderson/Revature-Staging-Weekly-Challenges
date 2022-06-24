@@ -1,0 +1,26 @@
+package com.revature;
+
+public class Launcher {
+	public static void main(String[] args) {
+		System.out.println(sherlock(3,9));
+		System.out.println(sherlock(17,24));
+		System.out.println(sherlock(1,1000000000));
+	}
+	
+	public static int sherlock(int a, int b) {
+		int result = 0;
+		while(a <= b) {
+			System.out.println(Math.sqrt(9));
+			if(Math.sqrt(a) - Math.floor(a) ==0) {
+				result++;
+				a++;
+			}else {
+				a++;
+			}
+		}
+		
+		
+		return result;
+	}
+	
+}
